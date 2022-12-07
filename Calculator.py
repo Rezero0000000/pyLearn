@@ -30,6 +30,6 @@ elif opsi == 4 :
     number2 = int(input("Masukan angka kedua \n"))
     print(f"\n{number1} / {number2} = {number1 / number2}\n")
 else :
-    print("\nInputan Salah\n")
+    print("\nInputan Salah\n ")
 
 print("Terimakasi sudah berkunjung ^^")

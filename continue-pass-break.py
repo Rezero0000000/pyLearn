@@ -14,7 +14,7 @@ while number < 3 :
 
 print("Proses berakhir")
 
-# Continue this will jump to start loop again and "i use arch btw" not execute
+# Continue will jump to start loop again and "i use arch btw" not execute
 print("------- Continue -------")
 number = 0
 

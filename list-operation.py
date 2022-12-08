@@ -48,4 +48,19 @@ print(f"Data waifu : {waifus}")
 print(f"waifus.index('rem') : {waifus.index('rem')}")
 print(f"waifus.index('elaina') : {waifus.index('elaina')}\n")
 
+# Sort list item
+numbers = [9,3,1,5,2]
+print(f"Before : {numbers}")
+numbers.sort()
+print(f"After : {numbers}\n")
+
+fruits = ["Grape", "Apel", "watermelon", "Orange"]
+print(f"Before : {fruits}")
+fruits.sort()
+print(f"After : {fruits}\n")
+
+# Reverse list item
+print(f"Before : {numbers}")
+numbers.reverse()
+print(f"After : {numbers}\n")
 

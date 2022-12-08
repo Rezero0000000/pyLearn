@@ -26,3 +26,11 @@ print(f"listFor : {listFor}\n")
 listIf = [i for i in range(0,5) if i != 3]
 print(f"listIf : {listIf}\n")
 
+# Nested list
+users = [["Re", 17, "male"], ["Rem", 16, "female"]]
+print("users :", users, "\n")
+
+for user in users :
+    print(f"Name : {user[0]}")
+    print(f"Age : {user[1]}")
+    print(f"Gender : {user[2]}\n")

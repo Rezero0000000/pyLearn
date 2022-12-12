@@ -1,17 +1,19 @@
 class Student :
-    countStudent = 0
+    __countStudent = 0
 
     def __init__ (self, name) :
         self.name = name
-        self.countStudent += 1
-    
+        Student.__countStudent += 1
+
     @staticmethod
     def sayHello () :
         print("Hello World")
 
-    @staticmethod 
+    @classmethod 
     def getCountStudent(cls) :
-        print(cls.countStudent)
+        print(cls.__countStudent)
+
+re = Student("Re")
 
 Student.getCountStudent()
 Student.sayHello()

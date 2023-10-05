@@ -1,2 +1,2 @@
 # pyLearn
-A repository for learn python language 
+A repository to learn python language 
